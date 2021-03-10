@@ -1,15 +1,13 @@
 Package: NBA.by.Year
 Title: Three Functions for NBA Data by Specified Year
-Version: 0.0.0.9000
+Version: 0.1
 Authors@R: 
     person(given = "Adrian",
            family = "Varallyay",
            role = c("aut", "cre"),
-           email = "av2734.@columbia.cedu",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "av2734.@columbia.cedu")
 Description: This package provides three functions to use with the internally included access to NBA player data from 1950 to 2017. The first function is year_rndm_age(); it returns the age of a random player of the NBA according to specified year. The second function is oldest_by_year(); it returns the age of the oldest (one of the oldest if mulriple exist) player  of the NBA according to specified year. the third function is cor_matrx_by_year(); it returns a correlation matrix of the numerical NBA stats from a specified year.   
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
