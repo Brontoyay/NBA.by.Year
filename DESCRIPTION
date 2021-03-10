@@ -15,3 +15,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 3.1.0)
+Imports:
+    tidyverse,
+    purrr,
+    tibble
